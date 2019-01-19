@@ -8,7 +8,6 @@ def nyc_pigeon_organizer(data)
           new_pigeon[names] = {}
           new_pigeon[names][descripter] = []
           new_pigeon[names][descripter] << adjective
-        end
       end
     end
   end
