@@ -14,8 +14,6 @@ def nyc_pigeon_organizer(data)
     data.each do |key, value|
       value.each do |key2, value2|
         value2.each do |temp_name|
-          
-          if (new_pigeon[temp_name].values)
           puts "pigeon_names[#{temp_name}][#{key}] = [#{key2}]"
         end
       end
