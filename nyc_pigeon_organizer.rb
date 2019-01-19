@@ -5,7 +5,6 @@ def nyc_pigeon_organizer(data)
     values.each do |adjective, values2|
       values2.each do |names|
         if ((new_pigeon.keys).include? names) == false
-          puts "new data"
           new_pigeon[names] = {}
           new_pigeon[names][descripter] = []
           new_pigeon[names][descripter] << adjective
