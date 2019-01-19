@@ -25,4 +25,5 @@ def get_names(data)
       names.push(name)
     end
   end
+  names
 end
