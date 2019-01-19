@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
     data.each do |key, value|
       value.each do |key2, value2|
         value2.each do |temp_name|
-          new_pigeon[temp_name][key] = [key2]"
+          new_pigeon[temp_name][key] = [key2]
         end
       end
     end
