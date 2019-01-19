@@ -14,17 +14,3 @@ def nyc_pigeon_organizer(data)
   end
   new_pigeon
 end
-
-def get_names(data)
-  names =[]
-  
-  colors = data[:color]
-  colors.each do |color, array|
-    array.each do |name|
-      if (names.include? name) == false
-        names.push(name)
-      end
-    end
-  end
-  names
-end
