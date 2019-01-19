@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
           new_pigeon[names][descripter] << adjective
         else
           
+          if ((new_pigeon[names].keys).include? descripter) == false
           #new_pigeon[names][descripter] << adjective
         end
       end
