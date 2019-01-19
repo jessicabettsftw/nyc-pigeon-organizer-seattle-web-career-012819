@@ -1,8 +1,5 @@
 def nyc_pigeon_organizer(data)
   new_pigeon = {}
-  pigeon_names = get_names(data)
-  
-  #puts pigeon_names
 
   data.each do |descripter, values|
     values.each do |adjective, values2|
