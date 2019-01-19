@@ -22,7 +22,9 @@ def get_names(data)
   colors = data[:color]
   colors.each do |color, array|
     array.each do |name|
-      names.push(name)
+      if (names.include? name) == false
+        names.push(name)
+      end
     end
   end
   names
